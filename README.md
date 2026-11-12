@@ -1,0 +1,11 @@
+# Barrier Option Pricer (C++ Monte Carlo)
+
+Prices an up-and-in barrier call option by simulating 1,000,000 stock
+paths in C++, then plots 100 sample paths in Python.
+
+
+## Files
+- `src/main.cpp` – C++ pricer: simulation, pricing, CSV export
+- `scripts/plot_paths.py` – reads the CSV and draws the chart
+- `data/` – paths.csv is written here
+- `images/paths.png` – the chart above
