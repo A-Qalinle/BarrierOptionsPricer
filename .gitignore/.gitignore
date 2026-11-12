@@ -1,0 +1,12 @@
+# Compiled programs
+pricer
+main
+*.dSYM/
+
+# Regenerated every run
+data/*.csv
+
+# Editor and Mac files
+.vscode/
+.DS_Store
+__pycache__/
